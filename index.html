@@ -4,20 +4,68 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="estilos/style.css" />
+    <link rel="stylesheet" href="estilos/mediaquerys.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      rel="stylesheet"
+    />
 
     <title>Tela de Login</title>
   </head>
   <body>
     <main>
       <section id="login">
-        <div id="imagem">Hulk</div>
+        <div id="imagem"></div>
+
         <div id="formulario">
           <h1>Login</h1>
           <p>
             Seja bem vindo(a) novamente. Faça login para acessar sua conta e
-            desfrutar do site
+            desfrutar do site.
           </p>
-          <form action="login.js" method="post"></form>
+          <form action="login.js" method="post">
+            <div id="estilo-user">
+              <div id="box-user">
+                <span
+                  id="person"
+                  class="material-symbols-outlined"
+                  id="icon-person"
+                >
+                  person_edit
+                </span>
+                <input
+                  type="email"
+                  name="email"
+                  id="iemail"
+                  required
+                  placeholder="Seu e-mail"
+                  maxlength="40"
+                />
+              </div>
+            </div>
+            <div id="estilo-pass">
+              <div id="box-pass">
+                <span id="key" class="material-symbols-outlined"> key </span>
+                <input
+                  type="password"
+                  name="password"
+                  id="ipassword"
+                  required
+                  minlength="8"
+                  placeholder="Sua senha"
+                />
+              </div>
+            </div>
+            <div id="botao-enviar">
+              <input type="submit" value="Entrar" />
+            </div>
+            <div id="esqueci">
+              <a href="#"
+                >Esqueci a senha
+                <span class="material-symbols-outlined"> sync </span>
+              </a>
+            </div>
+          </form>
         </div>
       </section>
     </main>

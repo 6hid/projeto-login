@@ -1,0 +1,162 @@
+/* Paleta de cores 
+  Verde: #49a09d
+  Lilas: #5f2c82
+*/
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body,
+html {
+  background-color: bisque;
+  width: 100vw;
+  height: 100vh;
+}
+main {
+  width: 100vw;
+  height: 100vh;
+}
+section#login {
+  background-color: white;
+  width: 250px;
+  height: 590px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 15px;
+}
+
+div#formulario {
+  height: 365px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+div#estilo-user {
+  text-align: center;
+  background-color: #6faba9;
+  border-radius: 10px;
+  margin: 10px;
+  height: 38px;
+  margin-bottom: 25px;
+}
+
+div#box-user > input {
+  border-radius: 10px;
+  border: none;
+  height: 35px;
+  background-color: #e8e886;
+  position: absolute;
+  left: 45px;
+  top: 339px;
+  width: 194px;
+}
+
+div#estilo-pass {
+  background-color: #6faba9;
+  text-align: center;
+  border-radius: 10px;
+  height: 38px;
+  margin: 10px;
+  margin-bottom: 25px;
+}
+
+div#box-pass > input {
+  border-radius: 10px;
+  border: none;
+  height: 35px;
+  background-color: #e8e886;
+  position: absolute;
+  left: 45px;
+  top: 403px;
+  width: 194px;
+}
+div#box-user > span {
+  color: white;
+  position: fixed;
+  top: 340px;
+  left: 12px;
+  font-size: 29px;
+}
+div#box-pass > span {
+  color: white;
+  position: fixed;
+  top: 405px;
+  left: 12px;
+  font-size: 29px;
+}
+div#botao-enviar {
+  padding: 10px;
+  margin-bottom: 0px;
+}
+div#botao-enviar > input {
+  background-color: #6faba9;
+  display: block;
+  margin: auto;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  width: 230px;
+  height: 38px;
+  font-weight: bold;
+}
+div#botao-enviar > input:hover {
+  background-color: #006360;
+  cursor: pointer;
+  transition-duration: 1s;
+}
+
+div#esqueci {
+  position: relative;
+  padding: 7px;
+}
+
+div#esqueci > a {
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  color: #49a09d;
+  border: 1px solid #49a09d;
+  padding: 10px;
+  border-radius: 10px;
+}
+div#esqueci > a:hover {
+  background-color: #226a67;
+  font-weight: bold;
+  transition-duration: 1s;
+  color: white;
+}
+
+div#esqueci > a > span {
+  color: #49a09d;
+  position: absolute;
+  top: 12px;
+  left: 190px;
+  font-size: 29px;
+}
+
+div > h1 {
+  text-align: center;
+  font-size: 1.6em;
+  padding-top: 10px;
+}
+div > p {
+  text-align: justify;
+  padding: 15px;
+}
+
+div#imagem {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-image: url(../imagens/pattern.jpg);
+  background-position: top center;
+  width: 250px;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
