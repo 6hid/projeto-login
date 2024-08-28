@@ -1,4 +1,8 @@
 @media screen and (min-width: 768px) and (max-width: 992px) {
+  body,
+  html {
+    background: linear-gradient(to bottom, #49a09d, #5f2c82);
+  }
   section#login {
     min-width: 80vw;
     height: 65vh;
@@ -15,23 +19,17 @@
     font-size: 29px;
   }
   div#box-user > span {
-    top: 35vh;
-    left: 1.5vw;
     color: white;
   }
   div#box-pass > span {
-    top: 42.5vh;
-    left: 1.5vw;
     color: white;
   }
   div#box-user > input {
-    left: 6vw;
-    top: 35vh;
-    width: 72.5vw;
+    left: 10%;
+    width: 90%;
   }
   div#box-pass > input {
-    left: 6vw;
-    top: 42.3vh;
-    width: 72.5vw;
+    left: 10%;
+    width: 90%;
   }
 }

@@ -31,7 +31,7 @@ section#login {
 }
 
 div#formulario {
-  height: 365px;
+  height: 390px;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
 }
@@ -43,6 +43,7 @@ div#estilo-user {
   margin: 10px;
   height: 38px;
   margin-bottom: 25px;
+  position: relative;
 }
 
 div#box-user > input {
@@ -51,9 +52,8 @@ div#box-user > input {
   height: 35px;
   background-color: #e8e886;
   position: absolute;
-  left: 45px;
-  top: 339px;
-  width: 194px;
+  left: 15%;
+  top: 2%;
 }
 
 div#estilo-pass {
@@ -63,6 +63,7 @@ div#estilo-pass {
   height: 38px;
   margin: 10px;
   margin-bottom: 25px;
+  position: relative;
 }
 
 div#box-pass > input {
@@ -71,22 +72,21 @@ div#box-pass > input {
   height: 35px;
   background-color: #e8e886;
   position: absolute;
-  left: 45px;
-  top: 403px;
-  width: 194px;
+  left: 15%;
+  top: 2%;
 }
 div#box-user > span {
   color: white;
-  position: fixed;
-  top: 340px;
-  left: 12px;
+  position: absolute;
+  top: 5%;
+  left: 1%;
   font-size: 29px;
 }
 div#box-pass > span {
   color: white;
-  position: fixed;
-  top: 405px;
-  left: 12px;
+  position: absolute;
+  top: 5%;
+  left: 1%;
   font-size: 29px;
 }
 div#botao-enviar {
