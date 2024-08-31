@@ -12,8 +12,7 @@
 
 body,
 html {
-  background: linear-gradient(to bottom, #49a09d, #5f2c82);
-  width: 100%;
+  background-color: lightskyblue;
   height: 110%;
 }
 
