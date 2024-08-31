@@ -2,17 +2,29 @@
   body,
   html {
     background: linear-gradient(to bottom, #49a09d, #5f2c82);
+    height:110%;
   }
   section#login {
     min-width: 80vw;
-    height: 65vh;
+    height: 70vh;
   }
 
   div#imagem {
     min-width: 80vw;
   }
-  div#formulario {
+  div#formulario > h1 {
+  
   }
+
+  div#paragrafo {
+    background-color: red;
+    position: relative;
+  }
+  div#paragrafo> p {
+    position: absolute;
+    left:50%;
+  }
+
   div#esqueci > a > span {
     top: 1.5vh;
     left: 48vw;
@@ -32,4 +44,6 @@
     left: 10%;
     width: 90%;
   }
+  
+
 }
